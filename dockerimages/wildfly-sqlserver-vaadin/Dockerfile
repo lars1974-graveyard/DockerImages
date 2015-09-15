@@ -2,7 +2,7 @@ FROM jboss/wildfly:9.0.0.Final
 
 ADD com/microsoft/sqlserver/jdbc/main/module.xml /opt/jboss/wildfly/modules/com/microsoft/sqlserver/jdbc/main/module.xml
 ADD com/microsoft/sqlserver/jdbc/main/sqljdbc4.jar /opt/jboss/wildfly/modules/com/microsoft/sqlserver/jdbc/main/sqljdbc4.jar
-ADD com/microsoft/sqlserver/jdbc/main/sqljdbc4.jar /opt/jboss/wildfly/modules/standalone/deployments/sqljdbc4.jar
+ADD sqljdbc4.jar /opt/jboss/wildfly/modules/standalone/deployments/sqljdbc4.jar
 ADD vaadin-client-7.5.4.jar /opt/jboss/wildfly/standalone/lib/ext/
 ADD vaadin-client-compiled-7.5.4.jar /opt/jboss/wildfly/standalone/lib/ext/
 ADD vaadin-server-7.5.4.jar /opt/jboss/wildfly/standalone/lib/ext/
