@@ -1,7 +1,7 @@
 FROM jboss/wildfly:9.0.0.Final
 
 ADD com/microsoft/sqlserver/module.xml /opt/jboss/wildfly/modules/com/microsoft/sqlserver/module.xml
-ADD com/microsoft/sqljdbc42.jar /opt/jboss/wildfly/modules/com/microsoft/sqlserver/sqljdbc42.jar
+ADD com/microsoft/sqlserver/sqljdbc42.jar /opt/jboss/wildfly/modules/com/microsoft/sqlserver/sqljdbc42.jar
 ADD vaadin-client-7.5.4.jar /opt/jboss/wildfly/standalone/lib/ext/
 ADD vaadin-client-compiled-7.5.4.jar /opt/jboss/wildfly/standalone/lib/ext/
 ADD vaadin-server-7.5.4.jar /opt/jboss/wildfly/standalone/lib/ext/
