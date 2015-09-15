@@ -1,6 +1,6 @@
 FROM jboss/wildfly:9.0.0.Final
 
-ADD modules/module.xml /opt/jboss/wildfly/modules/module.xml
+ADD module.xml /opt/jboss/wildfly/modules/module.xml
 ADD modules/sqljdbc42.jar /opt/jboss/wildfly/modules/sqljdbc42.jar
 ADD vaadin-client-7.5.4.jar /opt/jboss/wildfly/standalone/lib/ext/
 ADD vaadin-client-compiled-7.5.4.jar /opt/jboss/wildfly/standalone/lib/ext/
