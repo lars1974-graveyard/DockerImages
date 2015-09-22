@@ -2,6 +2,9 @@ FROM jboss/wildfly:9.0.0.Final
 
 ADD com/microsoft/sqlserver/jdbc/main/module.xml /opt/jboss/wildfly/modules/com/microsoft/sqlserver/jdbc/main/
 ADD com/microsoft/sqlserver/jdbc/main/sqljdbc4.jar /opt/jboss/wildfly/modules/com/microsoft/sqlserver/jdbc/main/
+
+
+ADD com/vaadin/main/module.xml /opt/jboss/wildfly/modules/com/vaadin/main/
 ADD com/vaadin/main/vaadin-client-7.5.4.jar /opt/jboss/wildfly/modules/com/vaadin/main/
 ADD com/vaadin/main/vaadin-client-compiled-7.5.4.jar /opt/jboss/wildfly/modules/com/vaadin/main/
 ADD com/vaadin/main/vaadin-server-7.5.4.jar /opt/jboss/wildfly/modules/com/vaadin/main/
