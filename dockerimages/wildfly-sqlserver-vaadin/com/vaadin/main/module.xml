@@ -12,8 +12,7 @@
         <resource-root path="vaadin-shared-7.5.4.jar"/>
         <resource-root path="vaadin-themes-7.5.4.jar"/>
 
-        <resource-root path="deltaspike-core-api-1.4.1.jar"/>
-        <resource-root path="deltaspike-core-impl-1.4.1.jar"/>
+
         <resource-root path="flute-1.3.0.gg2.jar"/>
         <resource-root path="guava-16.0.1.vaadin1.jar"/>
         <resource-root path="jsoup-1.8.1.jar"/>
